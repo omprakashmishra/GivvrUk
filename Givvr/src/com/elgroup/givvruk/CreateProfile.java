@@ -175,11 +175,11 @@ public class CreateProfile extends Activity implements OnClickListener{
 
 
             String gdr = preference.getString("gender", "");
-
+            imageString=data.getStringExtra("image_value");
             txtName.setText(preference.getString("name", ""));
             txtDob.setText(preference.getString("dob", ""));
             txtCity.setText(preference.getString("city", ""));
-            Utilities.downloadImage(data.getStringExtra("image_value"), image, options, null);
+            Utilities.downloadImage(imageString, image, options, null);
 
             if(gdr.equals("male")){
                 rbtnMale.setChecked(true);
@@ -267,7 +267,7 @@ public class CreateProfile extends Activity implements OnClickListener{
 
             else
             {
-                new GlobalVolley_cl(this, UrlList.REGISTER,userFunction.VcreateProfile(name, gen, dob, city, imageString, accesstoken),new CallbackInterface() {
+                new GlobalVolley_cl(this, UrlList.REGISTER,userFunction.VcreateProfile(name, gen, dob, city, imageString),new CallbackInterface() {
                     @Override
                     public void onSuccess(String response) {
                         JSONObject json=null;

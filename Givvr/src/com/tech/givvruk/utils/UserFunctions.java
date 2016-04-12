@@ -222,7 +222,7 @@ public class UserFunctions {
         return json;
     }
 
-    public HashMap<String, String> VcreateProfile(String name, String gender, String dob, String city, String imageString, String accesstoken) {
+    public Map VcreateProfile(String name, String gender, String dob, String city, String imageString) {
         HashMap<String, String> params = new HashMap<>();
         params.put("name", name);
         params.put("gender", gender);
