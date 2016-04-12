@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/base_home"
+    android:onClick="layoutHome">
+    
+    <LinearLayout
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@drawable/home_header">
+          <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <ImageButton
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:src="@drawable/arrow"
+            android:background="@drawable/selector_menu"
+            android:onClick="goBackVideos"/>
+
+        <ImageView
+            android:id="@+id/imageViewSmall"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:padding="4dp"/>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.3">
+
+            <TextView
+                android:id="@+id/textProjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:textSize="15dp"
+                android:text="" />
+            <TextView
+                android:id="@+id/textProjectTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textSize="13dp"
+                android:text="" />
+        </LinearLayout>
+		<TextView
+            android:id="@+id/txtGoalProjectVideos"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="15dp"
+            android:background="@drawable/ticker"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+		</LinearLayout>
+		<View
+            			  	android:layout_width="fill_parent"
+         				  	android:layout_height="1dip"
+            			  	android:background="#cccccc" />
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" 
+		    android:padding="5dp">
+
+			<TextView
+			    android:id="@+id/textTabVideo"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="0.5"
+			    android:text="Video"
+			    android:textColor="#959595"
+			    android:textStyle="bold"
+			    android:textSize="17dp"
+			    android:gravity="center"
+			    android:clickable="true"
+			    android:onClick="gotofragmentVideo"
+			    android:textAppearance="?android:attr/textAppearanceMedium" />
+			<View
+            			  	android:layout_width="1dip"
+         				  	android:layout_height="fill_parent"
+            			  	android:background="#d6d6d6" />
+			<TextView
+			    android:id="@+id/textTabProfile"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="0.5"
+			    android:textStyle="bold"
+			    android:text="About"
+			    android:textSize="17dp"
+			    android:textColor="#959595"
+			    android:gravity="center"
+			    android:clickable="true"
+			    android:onClick="gotoOneProject"
+			    android:textAppearance="?android:attr/textAppearanceMedium" />
+		</LinearLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fragmentProject"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/tabBar">
+    </FrameLayout>
+    
+        <RelativeLayout
+            android:id="@+id/layoutFullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:visibility="gone">
+		<SurfaceView
+            android:id="@+id/videoSurfaceFull"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_height="fill_parent" />
+        </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base"
+    tools:context=".StartActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layout_signup_signin_area"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="290dp"
+            android:layout_height="320dp"
+            android:src="@drawable/logo" />
+
+        <com.facebook.login.widget.LoginButton xmlns:fb="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/loginButtonFacebook"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            fb:login_text=""
+            fb:logout_text="" />
+
+        <Button
+            android:id="@+id/loginButtonGoogle"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/selector_button_google"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_signup_signin"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/signup_button_selector"
+                android:onClick="gotoSignup" />
+
+            <Button
+                android:id="@+id/signin_button"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/signin_button_selector"
+                android:onClick="gotoSignin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/terms_and_use"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:clickable="true"
+                android:gravity="right"
+                android:onClick="gotoTermsServiceStart"
+                android:text="@string/terms_and_use"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/givvrDefaultColor"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:background="@color/givvrDefaultColor"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:background="@null"
+                android:clickable="true"
+                android:gravity="left"
+                android:onClick="gotoPrivacyPolicyStart"
+                android:text="@string/privacy_policy"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/givvrDefaultColor"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

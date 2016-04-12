@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@drawable/base">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+	<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="40sp">
+
+		<ImageButton
+		    android:id="@+id/cancel_button"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="30dp"
+		    android:layout_height="30dp"
+		    android:layout_centerVertical="true"
+		    android:src="@drawable/cancel_button"
+            android:background="@null" 
+		    android:onClick="cancelButton"/>
+
+  		<TextView
+            android:id="@+id/text_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/text_signin"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/givvrDefaultColor"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+        
+		<ImageView
+		    android:id="@+id/imageView1"
+		    android:layout_width="290dp"
+		    android:layout_height="320dp"
+		    android:layout_marginTop="50dp"
+		    android:src="@drawable/logo" />
+  	
+  		
+	<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_marginTop="100dp"
+		    android:gravity="center">
+
+		<EditText
+		    android:id="@+id/email_edittext"
+		    android:layout_width="350dp"
+		    android:layout_height="50dp"
+		    android:ems="10"
+		    android:inputType="textEmailAddress"
+		    android:paddingLeft="60dp"
+		    android:paddingRight="15dp"
+		    android:hint="Email"
+		    android:textColorHint="@color/givvrDefaultColor"
+		    android:layout_marginTop="20dp"
+		    android:textColor="@color/givvrDefaultColor"
+		    android:singleLine="true"
+		    android:background="@drawable/email_edittext"/>
+	    <EditText
+		    android:id="@+id/password_edittext"
+		    android:layout_width="350dp"
+		    android:layout_height="50dp"
+		    android:ems="10"
+		    android:password="true"
+		    android:paddingLeft="60dp"
+		    android:paddingRight="15dp"
+		    android:hint="Password"
+		    android:textColorHint="@color/givvrDefaultColor"
+		    android:textColor="@color/givvrDefaultColor"
+		    android:singleLine="true"
+		    android:layout_marginTop="5dp"
+		    android:background="@drawable/password_edittext"/>
+
+	    <Button
+	        android:id="@+id/signin_submit"
+	        android:layout_width="350dp"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/text_signin"
+	        android:textColor="@color/white"
+	        android:textAllCaps="true"
+	        android:textStyle="bold"
+	        android:background="@drawable/signin_submit_selector"
+	        android:onClick="signinButton"/>
+
+	    <TextView
+	        android:id="@+id/forgot_password_selector"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:textColor="@color/givvrDefaultColor"
+            android:background="@null"
+            android:textSize="17dp"
+            android:clickable="true"
+            android:onClick="forgotPassword"
+	        android:text="Forgot Password/New?"/>
+	    
+		</LinearLayout>
+	
+    </LinearLayout>
+    
+
+</ScrollView>

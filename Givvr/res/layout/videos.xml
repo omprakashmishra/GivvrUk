@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+		<ImageView
+                android1:id="@+id/noMoreVideos"
+                android1:layout_width="fill_parent"
+                android1:layout_height="wrap_content"
+                android:layout_centerInParent="true" 
+                android1:src="@drawable/no_more_videos"
+                android:visibility="invisible"/>
+    <com.tech.givvruk.utils.ScrollViewExt
+                android:id="@+id/scrollView1"
+                android1:layout_width="fill_parent"
+                android1:layout_height="fill_parent"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:id="@+id/layout_videos"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="wrap_content"
+                    android1:orientation="vertical" >
+                </LinearLayout>
+            </com.tech.givvruk.utils.ScrollViewExt>
+
+      <!--      <ListView
+                android:id="@+id/listVideos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:divider="@null">
+            </ListView>-->
+            <ProgressBar
+                android:id="@+id/progressVideos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" 
+                android:visibility="invisible"/>
+</RelativeLayout>

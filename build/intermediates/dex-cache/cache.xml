@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\windows 7\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\library-1.0.19-24b1b1b425446b33437abf07a6c759f05ce52ec8.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\libs\slider.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c03f3a39e0eb9ba2f74681d63093341ca9f3e55">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\slider-76ac9ea951ad4d4abaf4553cc5327fec20cc7152.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\exploded-aar\Givvr Uk\circleimageview\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="621799338c589ed384a50c7c3f4fd7c258ff498b">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\classes-543de2a9621b99879ab300f2cd97475a0348913f.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\classes-c11f611ed1b991d8b9f6a39e7204cc7a4ab566d6.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\libs\gcm.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\gcm-f78f83be490b952ee30a5381d92df05bee4e2405.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f7188fc9a524a8f965b5aeab74879036f0431080">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\classes-83e66e9e20deac5f5c3795f1f16f5b2b7fdb01fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\windows 7\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-c915628a13404d33d2d0cf17b1e54208b0b68ba2.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\libs\twitter4j-core-4.0.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="381cf31e9200c2902782f17248d2af18e2ab4c56">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\twitter4j-core-4.0.2-8b00f284ffcad4a7ce882061bda74dbc066737f3.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\exploded-aar\Givvr Uk\google-play-services_lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2588aa13f3f0e4374cd9b4a9ec090a1f0ef07500">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\classes-264e4fb096584679ed64f0b5521c358420a5231d.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\exploded-aar\Givvr Uk\google-play-services_lib\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0cc4583d020880e34274a4c7b8ac772d96ecdac7">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\google-play-services-bc9e2f1f932a7d01ec70098a73b880b9eaa645d6.jar" />
+    </item>
+    <item
+        jar="E:\android software\android sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-ed80fe0bd8eaad880d94194335260ceb855a4d87.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\exploded-aar\com.github.d-max\spots-dialog\0.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f82b3f786bf4937ed1a1cc9a9a811e154813ba9a">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\classes-e663d6c90a423b0d7a4f64266ec041b3aa34acf9.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\classes-213bde30db9142b4f05e7dc068bb55420aca128f.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-83be9b326b8ef545218641e3fdda85cd39941a1c.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\libs\FlurryAnalytics-5.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9143ea9b390b4f6eeee3673533402669de23ab7e">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\FlurryAnalytics-5.0.0-5e593c0e8dd485b51098e9c7329ff000d95d2e7d.jar" />
+    </item>
+    <item
+        jar="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\workspace_om\Givvr Uk\Givvr\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-16140e265f6a7213c4f5197f8b2bab9249cf774e.jar" />
+    </item>
+
+</items>

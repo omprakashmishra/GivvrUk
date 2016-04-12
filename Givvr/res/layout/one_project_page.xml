@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/layout_swipe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="5dp"
+            android:background="@drawable/sponsors_bg" >
+      <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="250dp"
+    android:padding="10dp">
+     <ImageView
+            android:id="@+id/projectLargeImage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+    
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/projects_shadow">
+   <LinearLayout
+        android:id="@+id/layoutProject"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/textGoalProjectProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$1000"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" USD"
+                android:textSize="16dp"
+                android:layout_toRightOf="@+id/textGoalProjectProfile"
+                android:textColor="@color/white"/>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/textRaisedPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="33"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="% funded"
+                android:textSize="16dp"
+                android:textColor="@color/white"/>
+			</LinearLayout>
+			<TextView
+                android:id="@+id/textDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_toLeftOf="@+id/textDaysLeft"/>
+
+            <TextView
+                android:id="@+id/textDaysLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" days left"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        
+        
+        <SeekBar
+        	android:id="@+id/projectProgress"
+        	android:layout_width="fill_parent"
+        	android:thumb="@null"
+        	android:layout_marginTop="7dp"
+        	android:layout_height="7dp" />
+
+     </LinearLayout>
+    </LinearLayout>
+    		<Button
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:background="@null"/>
+    </RelativeLayout>
+    </RelativeLayout>
+  <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="Friends who support this"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <View
+              android:layout_width="wrap_content"
+              android:layout_height="1dip"
+              android:layout_marginTop="20dp"
+              android:background="#cccccc" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+				<ImageView
+                    android:id="@+id/imgGivvrUsers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:src="@drawable/no_friends"
+                    android:visibility="gone"/>
+				
+    		<com.tech.givvruk.utils.HorizontalListView
+    		android:id="@+id/listFriends"
+            android:layout_width="fill_parent"
+            android:layout_weight="0.8"
+            android:layout_height="120dp" 
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+            </LinearLayout>
+            <View
+              android:layout_width="wrap_content"
+              android:layout_height="1dip"
+              android:background="#cccccc" />
+            <Button
+	        android:id="@+id/invite_more_friends"
+	        android:layout_width="240dp"
+	        android:layout_height="45dp"
+	        android:layout_marginTop="20dp"
+	        android:text="Invite more friends"
+	        android:textColor="@color/white"
+	        android:textAllCaps="true"
+	        android:textSize="16dp"
+	        android:textStyle="bold"
+	        android:onClick="sendRequestDialog"/>
+            <View
+              android:layout_width="wrap_content"
+              android:layout_height="1dip"
+              android:layout_marginTop="20dp"
+              android:background="#cccccc" />
+            <TextView
+                android:id="@+id/textProjectTagHeading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text=""
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <View
+              android:layout_width="wrap_content"
+              android:layout_height="1dip"
+              android:background="#cccccc" />
+            <TextView
+        android:id="@+id/projectDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+        android:text="" />
+        <!-- <View
+              android:layout_width="wrap_content"
+              android:layout_height="1dip"
+              android:background="#cccccc" />   -->
+          <!--        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="Comments"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+                
+            <View
+              android:layout_width="wrap_content"
+              android:layout_height="1dip"
+              android:layout_marginTop="20dp"
+              android:background="#cccccc" />-->
+              
+             <!--  <Button
+	        android:id="@+id/share_project_one"
+	        android:layout_width="240dp"
+	        android:layout_height="45dp"
+	        android:gravity="center"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginBottom="20dp"
+	        android:text="share project"
+	        android:textColor="@color/white"
+	        android:textAllCaps="true"
+	        android:textSize="16dp"
+	        android:textStyle="bold"
+	        android:onClick="shareProject"/> -->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

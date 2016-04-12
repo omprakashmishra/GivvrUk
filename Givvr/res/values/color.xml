@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="hintColor">#99ffffff</color>
+    <color name="givvrDefaultColor">#e695c0</color>
+    <color name="grey">#ececec</color>
+    <color name="black">#000000</color>
+    <color name="blackOverlay">#B3000000</color>
+    <color name="darkGrey">#dddddd</color>
+    <color name="transparentColor">#66777d9a</color>
+    <color name="radioSelectedColor">#777d9a</color>
+    <color name="blackShade">#544d4d</color>
+	<color name="transparent">#66000000</color>    
+    <color name="default_screen_bg">#20324a</color>
+    <color name="rounded_container_bg">#A6000000</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#767573</color>
+    <color name="color_media_controls">#66888888</color>
+    <color name="screen_fade_color">#E65b4852</color>
+    
+</resources>

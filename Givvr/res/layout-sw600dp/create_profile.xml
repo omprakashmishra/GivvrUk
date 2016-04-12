@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@drawable/base">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+	<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:padding="40sp">
+
+		<ImageButton
+		    android:id="@+id/cancel_button"
+		    style="?android:attr/buttonStyleSmall"
+		    android:layout_width="50dp"
+		    android:layout_height="50dp"
+		    android:layout_centerVertical="true"
+		    android:src="@drawable/cancel_button"
+            android:background="@null" 
+		    android:onClick="cancelProfile"/>
+
+  		<TextView
+            android:id="@+id/text_signin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Create Profile"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="@color/givvrDefaultColor"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+        
+	<LinearLayout
+  		    android:layout_width="fill_parent"
+  		    android:layout_height="wrap_content"
+  		    android:orientation="vertical"
+  		    android:layout_marginTop="50dp"
+  		    android:gravity="center">
+		<ImageView
+		    android:id="@+id/profileImage"
+		    android:layout_width="150dp"
+		    android:layout_height="150dp"
+		    android:src="@drawable/profile" />
+		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Upload Photo"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/givvrDefaultColor"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+  		</LinearLayout>
+  		
+	<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:padding="10dp"
+		    android:layout_marginTop="80dp"
+		    android:gravity="center">
+		<EditText
+		    android:id="@+id/username_edittext"
+		    android:layout_width="350dp"
+		    android:layout_height="50dp"
+		    android:ems="10"
+		    android:paddingLeft="60dp"
+		    android:paddingRight="15dp"
+		    android:hint="Username"
+		    android:textColorHint="@color/givvrDefaultColor"
+		    android:layout_marginTop="20dp"
+		    android:textColor="@color/givvrDefaultColor"
+		    android:singleLine="true"
+		    android:background="@drawable/username_edittext"/>
+
+		<RadioGroup android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/rgroupGender"
+		    android:orientation="horizontal"
+		    android:padding="25dp">
+		<RadioButton
+		    android:id="@+id/rbtnMale"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/givvrDefaultColor"
+		    android:gravity="center"
+		    android:checked="true"
+		    android:text="male" />
+		<RadioButton
+		    android:id="@+id/rbtnFemale"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/givvrDefaultColor"
+		    android:text="female"
+		    android:gravity="center" />
+		</RadioGroup>
+		<EditText
+		    android:id="@+id/dob_edittext"
+		    android:layout_width="350dp"
+		    android:layout_height="50dp"
+		    android:ems="10"
+		    android:paddingLeft="60dp"
+		    android:paddingRight="15dp"
+		    android:hint="DOB (YYYY/MM/DD)"
+		    android:textColorHint="@color/givvrDefaultColor"
+		    android:layout_marginTop="5dp"
+		    android:textColor="@color/givvrDefaultColor"
+		    android:singleLine="true"
+		    android:background="@drawable/dob_edittext"/>
+	    <EditText
+		    android:id="@+id/city_edittext"
+		    android:layout_width="350dp"
+		    android:layout_height="50dp"
+		    android:ems="10"
+		    android:paddingLeft="60dp"
+		    android:paddingRight="15dp"
+		    android:hint="City"
+		    android:textColorHint="@color/givvrDefaultColor"
+		    android:textColor="@color/givvrDefaultColor"
+		    android:singleLine="true"
+		    android:layout_marginTop="15dp"
+		    android:background="@drawable/city_edittext"/>
+
+	    <Button
+	        android:id="@+id/signup_submit"
+	        android:layout_width="350dp"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="30dp"
+	        android:text="Submit"
+	        android:textColor="@color/white"
+	        android:textStyle="bold"
+	        android:textAllCaps="true"
+	        android:background="@drawable/signin_submit_selector"
+	        android:onClick="profileSubmit"/>
+	    
+		</LinearLayout>
+	
+    </LinearLayout>
+    
+
+</ScrollView>

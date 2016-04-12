@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FacebookSDK/FacebookSDK.iml" filepath="$PROJECT_DIR$/FacebookSDK/FacebookSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Givvr/Givvr.iml" filepath="$PROJECT_DIR$/Givvr/Givvr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Givvr Uk.iml" filepath="$PROJECT_DIR$/Givvr Uk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circleimageview/circleimageview.iml" filepath="$PROJECT_DIR$/circleimageview/circleimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+    </modules>
+  </component>
+</project>
+

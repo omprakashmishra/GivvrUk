@@ -1,0 +1,628 @@
+!SESSION 2015-11-03 14:42:50.711 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-11-03 14:43:18.332
+!MESSAGE --- Workbench plugin started. ---
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-11-03 14:43:18.362
+!MESSAGE --- Crashlytics Updater Plugin is starting ---
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-11-03 14:43:18.406
+!MESSAGE Starting com.crashlytics.tools.eclipse.updater(2.1.0.201502032032) with location: D:/ravish/android sdk/android sdk/eclipse/configuration/
+	 Managed plugins version: 0.0.0
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-11-03 14:43:18.415
+!MESSAGE {internal=false, fabric=true}
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-11-03 14:43:20.380
+!MESSAGE  OsgiBootstrapper - Installing 5 bundles from C:\Users\Lenovo\Desktop\Givvr work\.metadata\.plugins\com.crashlytics.tools.eclipse.workbench\.crashlytics_data\.bundles...
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-11-03 14:43:21.043
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.app_3.3.0.201502032032 [1382]
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-11-03 14:43:21.378
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.core_3.3.0.201502032032 [1383]
+
+!ENTRY com.crashlytics.tools.eclipse.core 1 0 2015-11-03 14:43:21.472
+!MESSAGE Crashlytics couldn't find file C:\Users\Lenovo\.crashlytics/User-OAuth
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-11-03 14:43:21.768
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.exporter_3.3.0.201502032032 [1384]
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.050
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.055
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.065
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.071
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.078
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.085
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.092
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.099
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:31.105
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:43:35.310
+!MESSAGE Could not open updated release notes, using built in release notes
+Stack trace:
+java.io.FileNotFoundException: C:\Users\Lenovo\.crashlytics\com.crashlytics.tools.eclipse.core\.release_notes\fabric_release_notes.html (The system cannot find the file specified)
+C:\Users\Lenovo\.crashlytics\com.crashlytics.tools.eclipse.core\.release_notes\fabric_release_notes.html (The system cannot find the file specified)
+java.io.FileNotFoundException: C:\Users\Lenovo\.crashlytics\com.crashlytics.tools.eclipse.core\.release_notes\fabric_release_notes.html (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.crashlytics.tools.android.ReleaseNotesManager.getReleaseNotesInput(ReleaseNotesManager.java:138)
+	at com.crashlytics.tools.ide.app.ReleaseNotesPage.displayUpdates(ReleaseNotesPage.java:52)
+	at com.crashlytics.tools.ide.app.ReleaseNotesPage.<init>(ReleaseNotesPage.java:44)
+	at com.crashlytics.tools.ide.app.AppWindow.show(AppWindow.java:227)
+	at com.crashlytics.tools.ide.app.AppWindow.showDialogWithParent(AppWindow.java:121)
+	at com.crashlytics.tools.ide.app.Launcher.showShell(Launcher.java:136)
+	at com.crashlytics.tools.ide.app.Launcher.access$5(Launcher.java:135)
+	at com.crashlytics.tools.ide.app.Launcher$5.run(Launcher.java:122)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+
+!ENTRY org.eclipse.ui 2 2 2015-11-03 14:43:44.440
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.ui.console 4 120 2015-11-03 14:43:45.206
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Document is closed
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:453)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:245)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:240)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:798)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:794)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:178)
+	at com.android.ddmlib.Log.println(Log.java:329)
+	at com.android.ddmlib.Log.e(Log.java:204)
+	at com.android.ddmlib.DeviceMonitor.deviceMonitorLoop(DeviceMonitor.java:166)
+	at com.android.ddmlib.DeviceMonitor.access$000(DeviceMonitor.java:44)
+	at com.android.ddmlib.DeviceMonitor$1.run(DeviceMonitor.java:84)
+
+!ENTRY org.eclipse.ui.console 4 120 2015-11-03 14:43:45.222
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:230)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:800)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:794)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:178)
+	at com.android.ddmlib.Log.println(Log.java:329)
+	at com.android.ddmlib.Log.e(Log.java:204)
+	at com.android.ddmlib.DeviceMonitor.deviceMonitorLoop(DeviceMonitor.java:166)
+	at com.android.ddmlib.DeviceMonitor.access$000(DeviceMonitor.java:44)
+	at com.android.ddmlib.DeviceMonitor$1.run(DeviceMonitor.java:84)
+
+!ENTRY org.eclipse.ui.console 4 120 2015-11-03 14:43:45.222
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:230)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at org.eclipse.ui.console.MessageConsoleStream.println(MessageConsoleStream.java:81)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.printToStream(DdmsPlugin.java:802)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$1(DdmsPlugin.java:794)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$2.printLog(DdmsPlugin.java:178)
+	at com.android.ddmlib.Log.println(Log.java:329)
+	at com.android.ddmlib.Log.e(Log.java:204)
+	at com.android.ddmlib.DeviceMonitor.deviceMonitorLoop(DeviceMonitor.java:166)
+	at com.android.ddmlib.DeviceMonitor.access$000(DeviceMonitor.java:44)
+	at com.android.ddmlib.DeviceMonitor$1.run(DeviceMonitor.java:84)
+
+!ENTRY org.eclipse.osgi 4 0 2015-11-03 14:43:45.238
+!MESSAGE An error occurred while automatically activating bundle com.crashlytics.tools.eclipse.app (1382).
+!STACK 0
+org.osgi.framework.BundleException: The activator com.crashlytics.tools.eclipse.app.CrashlyticsAppPlugin for bundle com.crashlytics.tools.eclipse.app is invalid
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadBundleActivator(AbstractBundle.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:679)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.crashlytics.swing.StatusPanel.dispose(StatusPanel.java:85)
+	at com.crashlytics.swing.ProgressUpdater.dispose(ProgressUpdater.java:99)
+	at com.crashlytics.tools.ide.app.AppPage.dispose(AppPage.java:383)
+	at com.crashlytics.tools.ide.app.AppPage$BackButtonAppPage.dispose(AppPage.java:581)
+	at com.crashlytics.tools.ide.app.AppWindow.dispose(AppWindow.java:243)
+	at com.crashlytics.tools.ide.app.Launcher.killShell(Launcher.java:173)
+	at com.crashlytics.tools.ide.app.Launcher$2.run(Launcher.java:59)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: Cannot load "com.crashlytics.tools.eclipse.app.CrashlyticsAppPlugin" because the bundle "file:/C:/Users/Lenovo/Desktop/Givvr%20work/.metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/com.crashlytics.tools.eclipse.app_3.3.0.201502032032.jar" cannot be resolved.
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadBundleActivator(AbstractBundle.java:165)
+	... 30 more
+Root exception:
+java.lang.ClassNotFoundException: Cannot load "com.crashlytics.tools.eclipse.app.CrashlyticsAppPlugin" because the bundle "file:/C:/Users/Lenovo/Desktop/Givvr%20work/.metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/com.crashlytics.tools.eclipse.app_3.3.0.201502032032.jar" cannot be resolved.
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadBundleActivator(AbstractBundle.java:165)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:679)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.crashlytics.swing.StatusPanel.dispose(StatusPanel.java:85)
+	at com.crashlytics.swing.ProgressUpdater.dispose(ProgressUpdater.java:99)
+	at com.crashlytics.tools.ide.app.AppPage.dispose(AppPage.java:383)
+	at com.crashlytics.tools.ide.app.AppPage$BackButtonAppPage.dispose(AppPage.java:581)
+	at com.crashlytics.tools.ide.app.AppWindow.dispose(AppWindow.java:243)
+	at com.crashlytics.tools.ide.app.Launcher.killShell(Launcher.java:173)
+	at com.crashlytics.tools.ide.app.Launcher$2.run(Launcher.java:59)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+!SESSION 2015-11-03 14:43:45.458 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.6.0
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_IN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-11-03 14:44:04.494
+!MESSAGE --- Workbench plugin started. ---
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-11-03 14:44:04.510
+!MESSAGE --- Crashlytics Updater Plugin is starting ---
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-11-03 14:44:04.526
+!MESSAGE Starting com.crashlytics.tools.eclipse.updater(2.1.0.201502032032) with location: D:/ravish/android sdk/android sdk/eclipse/configuration/
+	 Managed plugins version: 0.0.0
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-11-03 14:44:04.526
+!MESSAGE {internal=false, fabric=true}
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-11-03 14:44:05.151
+!MESSAGE  OsgiBootstrapper - Installing 5 bundles from C:\Users\Lenovo\Desktop\Givvr work\.metadata\.plugins\com.crashlytics.tools.eclipse.workbench\.crashlytics_data\.bundles...
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-11-03 14:44:05.869
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.app_3.3.0.201502032032 [1382]
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-11-03 14:44:06.022
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.core_3.3.0.201502032032 [1383]
+
+!ENTRY com.crashlytics.tools.eclipse.core 1 0 2015-11-03 14:44:06.085
+!MESSAGE Crashlytics couldn't find file C:\Users\Lenovo\.crashlytics/User-OAuth
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-11-03 14:44:06.491
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.exporter_3.3.0.201502032032 [1384]
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.812
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.828
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.828
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.828
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.843
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.843
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.859
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.859
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:11.875
+!MESSAGE Unknown font: Helvetica
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:13.153
+!MESSAGE Could not open updated release notes, using built in release notes
+Stack trace:
+java.io.FileNotFoundException: C:\Users\Lenovo\.crashlytics\com.crashlytics.tools.eclipse.core\.release_notes\fabric_release_notes.html (The system cannot find the file specified)
+C:\Users\Lenovo\.crashlytics\com.crashlytics.tools.eclipse.core\.release_notes\fabric_release_notes.html (The system cannot find the file specified)
+java.io.FileNotFoundException: C:\Users\Lenovo\.crashlytics\com.crashlytics.tools.eclipse.core\.release_notes\fabric_release_notes.html (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.crashlytics.tools.android.ReleaseNotesManager.getReleaseNotesInput(ReleaseNotesManager.java:138)
+	at com.crashlytics.tools.ide.app.ReleaseNotesPage.displayUpdates(ReleaseNotesPage.java:52)
+	at com.crashlytics.tools.ide.app.ReleaseNotesPage.<init>(ReleaseNotesPage.java:44)
+	at com.crashlytics.tools.ide.app.AppWindow.show(AppWindow.java:227)
+	at com.crashlytics.tools.ide.app.AppWindow.showDialogWithParent(AppWindow.java:121)
+	at com.crashlytics.tools.ide.app.Launcher.showShell(Launcher.java:136)
+	at com.crashlytics.tools.ide.app.Launcher.access$5(Launcher.java:135)
+	at com.crashlytics.tools.ide.app.Launcher$5.run(Launcher.java:122)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:51.492
+!MESSAGE Crashlytics could not determine ab API Key for this user; could not check for plugin updates.
+
+!ENTRY com.crashlytics.tools.eclipse.core 2 0 2015-11-03 14:44:51.508
+!MESSAGE Crashlytics could not determine ab API Key for this user; could not check for plugin updates.
+
+!ENTRY com.crashlytics.tools.eclipse.core 4 0 2015-11-03 14:45:06.494
+!MESSAGE Crashlytics had a problem getting the list of organizations.
+Stack trace:
+com.crashlytics.api.AuthenticationException: Crashlytics could not authenticate user while retrieving organizations.
+Crashlytics could not authenticate user while retrieving organizations.
+com.crashlytics.api.AuthenticationException: Crashlytics could not authenticate user while retrieving organizations.
+	at com.crashlytics.api.RestfulWebApi.getOrgs(RestfulWebApi.java:634)
+	at com.crashlytics.tools.ide.android.AbstractAndroidIde.updateThenRefreshSDKs(AbstractAndroidIde.java:174)
+	at com.crashlytics.tools.ide.android.AndroidPluginSupport$SDKUpdateBehavior.run(AndroidPluginSupport.java:74)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRunAndReset(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.runPeriodic(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-03 14:47:08.485
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-03 14:47:08.506
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Lenovo'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-11-03 14:47:10.703
+!MESSAGE Exception occurred while saving project preferences: /Givvr/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\Lenovo\Desktop\Givvr work\Givvr\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2015-11-03 14:47:10.703
+!MESSAGE A resource already exists on disk 'C:\Users\Lenovo\Desktop\Givvr work\Givvr\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-11-03 14:47:10.719
+!MESSAGE Exception occurred while saving project preferences: /Givvr/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\Lenovo\Desktop\Givvr work\Givvr\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2015-11-03 14:47:10.719
+!MESSAGE A resource already exists on disk 'C:\Users\Lenovo\Desktop\Givvr work\Givvr\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-11-03 14:47:10.734
+!MESSAGE Exception occurred while saving project preferences: /Givvr/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\Lenovo\Desktop\Givvr work\Givvr\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2015-11-03 14:47:10.734
+!MESSAGE A resource already exists on disk 'C:\Users\Lenovo\Desktop\Givvr work\Givvr\.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:47:13.782
+!MESSAGE Exception in checkAndLoadTargetData.
+!STACK 0
+java.lang.UnsupportedClassVersionError: Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidJarLoader.defineAndCacheClass(AndroidJarLoader.java:336)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidJarLoader.findClass(AndroidJarLoader.java:312)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetParser.collectPermissions(AndroidTargetParser.java:336)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetParser.run(AndroidTargetParser.java:107)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:712)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:47:13.797
+!MESSAGE Parsing Data for android-21 failed
+!STACK 0
+java.lang.UnsupportedClassVersionError: Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at java.lang.ClassLoader.defineClass(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidJarLoader.defineAndCacheClass(AndroidJarLoader.java:336)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidJarLoader.findClass(AndroidJarLoader.java:312)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetParser.collectPermissions(AndroidTargetParser.java:336)
+	at com.android.ide.eclipse.adt.internal.sdk.AndroidTargetParser.run(AndroidTargetParser.java:107)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$6.run(Sdk.java:712)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui 2 2 2015-11-03 14:47:53.576
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:49:24.253
+!MESSAGE Failed to load properties file for project 'facebook'
+
+!ENTRY com.crashlytics.tools.eclipse.core 4 0 2015-11-03 14:49:53.537
+!MESSAGE Failed to update resources for facebook
+Stack trace:
+java.io.IOException: Could parse Android project for: facebook (not open)
+Could parse Android project for: facebook (not open)
+java.io.IOException: Could parse Android project for: facebook (not open)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:225)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:216)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:1)
+	at com.crashlytics.tools.eclipse.EclipseBuildListener.createAndroidProject(EclipseBuildListener.java:174)
+	at com.crashlytics.tools.eclipse.EclipseBuildListener.preBuild(EclipseBuildListener.java:51)
+	at com.crashlytics.tools.eclipse.ThreadedAssemblyListener$1.run(ThreadedAssemblyListener.java:34)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:221)
+	... 11 more
+
+
+!ENTRY com.crashlytics.tools.eclipse.core 4 0 2015-11-03 14:51:02.115
+!MESSAGE Failed to update resources for FacebookSDK
+Stack trace:
+java.io.IOException: Could parse Android project for: FacebookSDK (not open)
+Could parse Android project for: FacebookSDK (not open)
+java.io.IOException: Could parse Android project for: FacebookSDK (not open)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:225)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:216)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:1)
+	at com.crashlytics.tools.eclipse.EclipseBuildListener.createAndroidProject(EclipseBuildListener.java:174)
+	at com.crashlytics.tools.eclipse.EclipseBuildListener.preBuild(EclipseBuildListener.java:51)
+	at com.crashlytics.tools.eclipse.ThreadedAssemblyListener$1.run(ThreadedAssemblyListener.java:34)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:221)
+	... 11 more
+
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:53:45.932
+!MESSAGE Failed to load properties file for project 'FacebookSDK'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:53:45.932
+!MESSAGE Failed to load properties file for project 'FacebookSDK'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:53:45.948
+!MESSAGE Failed to load properties file for project 'FacebookSDK'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:53:45.964
+!MESSAGE Failed to load properties file for project 'FacebookSDK'
+
+!ENTRY com.crashlytics.tools.eclipse.core 4 0 2015-11-03 14:55:28.527
+!MESSAGE Failed to update resources for FacebookSDK
+Stack trace:
+java.io.IOException: Could parse Android project for: FacebookSDK (not open)
+Could parse Android project for: FacebookSDK (not open)
+java.io.IOException: Could parse Android project for: FacebookSDK (not open)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:225)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:216)
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:1)
+	at com.crashlytics.tools.eclipse.EclipseBuildListener.createAndroidProject(EclipseBuildListener.java:174)
+	at com.crashlytics.tools.eclipse.EclipseBuildListener.preBuild(EclipseBuildListener.java:51)
+	at com.crashlytics.tools.eclipse.ThreadedAssemblyListener$1.run(ThreadedAssemblyListener.java:34)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at com.crashlytics.tools.eclipse.EclipseIde.createAndroidProject(EclipseIde.java:221)
+	... 11 more
+
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:56:13.505
+!MESSAGE Failed to load properties file for project 'FacebookSDK'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:56:13.521
+!MESSAGE Failed to load properties file for project 'FacebookSDK'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:56:13.521
+!MESSAGE Failed to load properties file for project 'FacebookSDK'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-11-03 14:56:13.537
+!MESSAGE Failed to load properties file for project 'FacebookSDK'
+
+!ENTRY org.eclipse.osgi 4 0 2015-11-03 14:58:07.678
+!MESSAGE An error occurred while automatically activating bundle com.crashlytics.tools.eclipse.app (1382).
+!STACK 0
+org.osgi.framework.BundleException: The activator com.crashlytics.tools.eclipse.app.CrashlyticsAppPlugin for bundle com.crashlytics.tools.eclipse.app is invalid
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadBundleActivator(AbstractBundle.java:172)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:679)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.crashlytics.swing.StatusPanel.dispose(StatusPanel.java:85)
+	at com.crashlytics.swing.ProgressUpdater.dispose(ProgressUpdater.java:99)
+	at com.crashlytics.tools.ide.app.AppPage.dispose(AppPage.java:383)
+	at com.crashlytics.tools.ide.app.AppPage$BackButtonAppPage.dispose(AppPage.java:581)
+	at com.crashlytics.tools.ide.app.AppWindow.dispose(AppWindow.java:243)
+	at com.crashlytics.tools.ide.app.Launcher.killShell(Launcher.java:173)
+	at com.crashlytics.tools.ide.app.Launcher$2.run(Launcher.java:59)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: Cannot load "com.crashlytics.tools.eclipse.app.CrashlyticsAppPlugin" because the bundle "file:/C:/Users/Lenovo/Desktop/Givvr%20work/.metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/com.crashlytics.tools.eclipse.app_3.3.0.201502032032.jar" cannot be resolved.
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadBundleActivator(AbstractBundle.java:165)
+	... 30 more
+Root exception:
+java.lang.ClassNotFoundException: Cannot load "com.crashlytics.tools.eclipse.app.CrashlyticsAppPlugin" because the bundle "file:/C:/Users/Lenovo/Desktop/Givvr%20work/.metadata/.plugins/com.crashlytics.tools.eclipse.workbench/.crashlytics_data/.bundles/com.crashlytics.tools.eclipse.app_3.3.0.201502032032.jar" cannot be resolved.
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:227)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadBundleActivator(AbstractBundle.java:165)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:679)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:381)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:300)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at com.crashlytics.swing.StatusPanel.dispose(StatusPanel.java:85)
+	at com.crashlytics.swing.ProgressUpdater.dispose(ProgressUpdater.java:99)
+	at com.crashlytics.tools.ide.app.AppPage.dispose(AppPage.java:383)
+	at com.crashlytics.tools.ide.app.AppPage$BackButtonAppPage.dispose(AppPage.java:581)
+	at com.crashlytics.tools.ide.app.AppWindow.dispose(AppWindow.java:243)
+	at com.crashlytics.tools.ide.app.Launcher.killShell(Launcher.java:173)
+	at com.crashlytics.tools.ide.app.Launcher$2.run(Launcher.java:59)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)

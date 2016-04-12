@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/base_home">
+    <RelativeLayout 
+        android:id="@+id/tabBar"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="0.5dp"
+        android:background="@drawable/home_header" >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100sp"
+            android:layout_height="30sp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/givvr"/>
+        <ImageButton
+            android:id="@+id/btn_menu"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/menu"
+            android:background="@drawable/selector_menu"
+            android:onClick="openMenu"/>
+
+        <SearchView
+            android:id="@+id/searchView1"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@drawable/selector_menu"
+            android:layout_alignParentRight="true" >
+        </SearchView>
+
+    </RelativeLayout>
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_below="@+id/tabBar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:background="@drawable/sponsors_bg"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="4dp"
+            android:onClick="layoutHome">
+            <ListView
+                android:id="@+id/listProjects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:scrollbars="none">
+            </ListView>
+        </LinearLayout>
+        
+ <ProgressBar
+         android:id="@+id/progressBarHome"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:layout_centerInParent="true"
+         android:visibility="invisible"/>
+ <LinearLayout
+     android:id="@+id/layoutSwipe"
+     android:layout_width="80dp"
+     android:layout_height="fill_parent"
+     android:layout_below="@+id/tabBar"
+     android:orientation="vertical" >
+ </LinearLayout>
+        
+</RelativeLayout>

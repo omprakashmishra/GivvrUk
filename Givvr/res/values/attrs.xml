@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+        <declare-styleable name="CircularImageView">
+                <attr name="border" format="boolean"/>
+                <attr name="border_width" format="integer"/>
+                <attr name="border_color" format="color"/>
+                <attr name="shadow" format="boolean"/>
+        </declare-styleable>
+        <declare-styleable name="Theme">
+                <attr name="circularImageViewStyle" format="reference"/>
+        </declare-styleable>
+        <declare-styleable name="CustomTextView">
+                <attr name="fontName" format="string"/>
+        </declare-styleable>
+</resources>

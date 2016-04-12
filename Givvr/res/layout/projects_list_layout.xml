@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutProjectImage"
+    android:layout_width="fill_parent"
+    android:layout_height="240dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/projectLargeImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/layoutShadowUp"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:background="@drawable/shadow_up">
+            <ImageView
+        android:id="@+id/projectSmallImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="9dp"/>
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical">
+        <TextView
+                        android:id="@+id/titleProject"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Project"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+        <TextView
+                        android:id="@+id/projectTag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="project tag"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+    </LinearLayout>
+    </LinearLayout>
+  <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/projects_shadow">
+   <LinearLayout
+        android:id="@+id/layoutProject"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp">
+			 <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="0.3"
+                android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/textProjectRaised"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$1000"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" raised"
+                android:textSize="14dp"
+                android:layout_toRightOf="@+id/textProjectRaised"
+                android:textColor="@color/white"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="0.3"
+                android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/textSupporters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.2K"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textViewSupporters"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" supporters"
+                android:textSize="14dp"
+                android:textColor="@color/white"/>
+			</LinearLayout>
+			 <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_weight="0.3"
+                android:layout_centerHorizontal="true">
+			<TextView
+                android:id="@+id/textDaysLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_toLeftOf="@+id/txtDaysLeft"/>
+
+            <TextView
+                android:id="@+id/txtDaysLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" days left"
+                android:textSize="14dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+        <SeekBar
+        	android:id="@+id/projectProgress"
+        	android:layout_width="fill_parent"
+        	android:thumb="@null"
+        	android:layout_marginTop="7dp"
+        	android:layout_height="7dp" />
+
+     </LinearLayout>
+    </LinearLayout>
+    		<Button
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:background="@null"/>
+    </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/layoutrl"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@drawable/selector_projects_home">
+  </RelativeLayout>
+   
+</RelativeLayout>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_frame_video"
+        android:layout_width="fill_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:id="@+id/videoSurfaceContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/black">
+
+            <SurfaceView
+                android:id="@+id/videoSurface"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/thumnail_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:visibility="visible" />
+
+        <View
+            android:id="@+id/blackOverlay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/blackOverlay"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:id="@+id/layoutVideoOverlayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/textVideoOverlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You're awesome."
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textVideoOverlayTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You raised "
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVideoOverlayCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25 cents"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textVideoOverlayThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" by watching this."
+                    android:textColor="@color/white"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/play_button"
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@null" />
+
+        <ImageButton
+            android:id="@+id/play_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_play_button" />
+
+        <ProgressBar
+            android:id="@+id/progressBarVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible" />
+        <!--  android:indeterminateDrawable="@drawable/my_progress_indeterminate" -->
+
+        <ImageButton
+            android:id="@+id/timer"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:src="@drawable/play"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_frame_video"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_video_footer"
+        android:orientation="vertical"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageSponsorLogo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/circle" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewsponsorName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLength="30"
+                        android:singleLine="true"
+                        android:text="Givvr"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewCost"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Watch the video to raise 25 cents."
+                        android:textSize="13dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/imageViewLikeVideo"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.3"
+                    android:background="@drawable/selector_menu"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageViewLike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/like" />
+
+                    <TextView
+                        android:id="@+id/textViewLike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Like"
+                        android:textColor="#2f2f2f" />
+
+                </LinearLayout>
+
+                <!-- <Button
+                        android:id="@+id/imageViewLikeVideo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:drawableLeft="@drawable/selector_video_button_two"
+                        android:background="@drawable/selector_menu"
+                        android:paddingLeft="15dp"
+                        android:text="Like"
+                        android:textSize="13dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"/> -->
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc" />
+
+        <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="31dp"
+            android:orientation="vertical"
+            android:layout_weight="0.4">
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/imageViewSponsorLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/selector_video_button_one"
+                android:background="@drawable/selector_menu"
+                android:paddingLeft="15dp"
+                android:text="Visit"
+                android:textSize="13dp"
+                android:layout_weight="0.5"
+                android:paddingTop="5dp"
+                android:layout_gravity="center"
+                android:paddingBottom="5dp"/>
+            <View android:layout_width="1dip"
+                android:layout_height="27dp"
+                android:background="#d8d8d8"/>
+            <Button
+                android:id="@+id/imageViewLikeVideo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/selector_video_button_two"
+                android:background="@drawable/selector_menu"
+                android:paddingLeft="15dp"
+                android:text="Like"
+                android:textSize="13dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_weight="0.5"/>
+            <View android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="#d8d8d8"/>
+            </LinearLayout>
+            <View android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#cccccc"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/imageViewShare"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Share to raise more"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:background="@null"
+                android:layout_weight="0.5"/>
+        </LinearLayout> -->
+
+        <!-- android:background="@drawable/selector_menu" -->
+        <LinearLayout
+            android:id="@+id/layoutShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp">
+
+            <!-- <Button
+                android:id="@+id/buttonFB"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:text="Connect to see how much"
+                android:textSize="13dp"
+                android:paddingLeft="70dp"
+                android:gravity="left|center_vertical"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_fb_share"/> -->
+            <LinearLayout
+                android:id="@+id/buttonFB"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fb_share">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="60dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/textFB"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:text="Connect to raise more"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+
+                    <View
+                        android:id="@+id/viewCountFB"
+                        android:layout_width="0.5dp"
+                        android:layout_height="fill_parent"
+                        android:background="#355089"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/textFBCount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <!--  <Button
+                 android:id="@+id/buttonTW"
+                 android:layout_width="280dp"
+                 android:layout_height="40dp"
+                 android:textColor="@color/white"
+                 android:background="@drawable/selector_tw_share"
+                 android:layout_marginTop="5dp"
+                 android:text="Connect to see how much"
+                 android:paddingLeft="70dp"
+                 android:gravity="left|center_vertical"
+                 android:textSize="13dp"/>  -->
+            <LinearLayout
+                android:id="@+id/buttonTW"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/tw_share">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="60dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/textTW"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:text="Tweet to raise up to"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+
+                    <View
+                        android:id="@+id/viewCountTW"
+                        android:layout_width="0.5dp"
+                        android:layout_height="fill_parent"
+                        android:background="#009ad5"
+                        android:visibility="invisible" />
+
+                    <TextView
+                        android:id="@+id/textTWCount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/buttonMSG"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/share_msg">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="60dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/textMSG"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:text="Text to raise up to"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+
+                    <View
+                        android:id="@+id/viewCountMSG"
+                        android:layout_width="0.5dp"
+                        android:layout_height="fill_parent"
+                        android:background="#87a36d" />
+
+                    <TextView
+                        android:id="@+id/textMSGCount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:text="£120"
+                        android:textColor="@color/white"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonEm"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/selector_share_mail"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="60dp"
+                android:text="Send video via email"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+   
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+ 	<dimen name="givvr_logo_width">170dp</dimen>
+ 	<dimen name="givvr_logo_height">190dp</dimen>
+    <dimen name="givvr_logo_margin_top">100dp</dimen>
+ 	<dimen name="login_Button_layout_width">290dp</dimen>
+ 	<dimen name="login_Button_layout_height">42dp</dimen>
+ 	<dimen name="text_terms_and_use_size">13dp</dimen>
+ 	<dimen name="text_terms_and_use_margin">15dp</dimen>
+</resources>
